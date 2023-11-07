@@ -23,10 +23,10 @@
     "baseUrl": "./",
     "paths": {
     "@/*":[
-      "src/*"
+      "react-manage/src/*"
     ]
     }
   },
-  "include": ["src"],
+  "include": ["react-manage/src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

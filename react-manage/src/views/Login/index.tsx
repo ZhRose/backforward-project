@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react"
 import { Input,Space,Button,message } from 'antd';
 import styles from "./login.module.scss"
-import initLoginBg from "./init.ts"
+import initLoginBg from "./init"
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import './login.less'
 import { useNavigate } from "react-router-dom"
